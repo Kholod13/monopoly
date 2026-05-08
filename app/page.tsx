@@ -4,7 +4,7 @@ import Board from '../src/components/Board';
 export default function Home() {
     return (
         // Делаем обертку на весь экран, серый фон для солидности
-        <main className="flex min-h-screen bg-slate-50 items-center justify-center p-4 gap-8">
+        <main className="flex min-h-screen bg-slate-50 items-center justify-center p-0 gap-8">
 
             {/* Левая панель (пока пустая, здесь будет список игроков) */}
             <div className="hidden lg:flex flex-col w-64 h-[800px] bg-white rounded-xl shadow-lg p-4 border border-gray-200">
